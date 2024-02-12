@@ -110,6 +110,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(161, 33);
             textBox1.TabIndex = 5;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // textBox2
             // 
@@ -118,6 +119,7 @@
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(161, 33);
             textBox2.TabIndex = 6;
+            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // textBox3
             // 
@@ -126,6 +128,7 @@
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(161, 33);
             textBox3.TabIndex = 7;
+            textBox3.TextChanged += textBox3_TextChanged;
             // 
             // textBox4
             // 
@@ -134,6 +137,7 @@
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(161, 33);
             textBox4.TabIndex = 8;
+            textBox4.TextChanged += textBox4_TextChanged;
             // 
             // button1
             // 
@@ -145,6 +149,7 @@
             button1.TabIndex = 9;
             button1.Text = "REGISTRAR";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // label6
             // 
