@@ -8,31 +8,27 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\beatr\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\monke\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\beatr\\Desktop\\FP\\SEGUNDO\\DESARROLLO_DE_INTERFACES\\.NET\\LoginRegistro\\LoginRegistro\\LoginRegistro.csproj",
+      "projectUniqueName": "C:\\Users\\monke\\Desktop\\Login\\TrabajoLogin\\LoginRegistro\\LoginRegistro.csproj",
       "projectName": "LoginRegistro",
-      "projectPath": "C:\\Users\\beatr\\Desktop\\FP\\SEGUNDO\\DESARROLLO_DE_INTERFACES\\.NET\\LoginRegistro\\LoginRegistro\\LoginRegistro.csproj",
-      "packagesPath": "C:\\Users\\beatr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\beatr\\Desktop\\FP\\SEGUNDO\\DESARROLLO_DE_INTERFACES\\.NET\\LoginRegistro\\LoginRegistro\\obj\\",
+      "projectPath": "C:\\Users\\monke\\Desktop\\Login\\TrabajoLogin\\LoginRegistro\\LoginRegistro.csproj",
+      "packagesPath": "C:\\Users\\monke\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\monke\\Desktop\\Login\\TrabajoLogin\\LoginRegistro\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\beatr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\monke\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0-windows"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0-windows7.0": {
@@ -60,6 +56,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.26, 6.0.26]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.26, 6.0.26]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.26, 6.0.26]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.26, 6.0.26]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -68,7 +82,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

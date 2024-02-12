@@ -14,4 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LoginRegistro
-build_property.ProjectDir = C:\Users\beatr\Desktop\FP\SEGUNDO\DESARROLLO_DE_INTERFACES\.NET\LoginRegistro\LoginRegistro\
+build_property.ProjectDir = C:\Users\monke\Desktop\Login\TrabajoLogin\LoginRegistro\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
