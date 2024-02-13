@@ -1,9 +1,13 @@
+using System.DirectoryServices.ActiveDirectory;
+using System.Transactions;
+
+
 namespace LoginRegistro
 {
     public partial class Form1 : Form
     {
-
-        public List<String> usuarios = new List<string>();
+        
+        public List<Class1> usuarios = new List<Class1>();
         public String nombre;
         public String correo;
         public String contrasena;
@@ -11,6 +15,8 @@ namespace LoginRegistro
         public Form1()
         {
             InitializeComponent();
+            label6.Visible = false;
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -20,7 +26,24 @@ namespace LoginRegistro
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            if (contrasena != validar_contrasena)
+            {
+                label6.Visible = true;
+            }
+            else
+            {
+                Class1 usuario = new Class1(nombre, correo, contrasena);
+                usuarios.Add(usuario);
+                textBox1.Clear();
+                textBox2.Clear();
+                textBox3.Clear();
+                textBox4.Clear();
+
+                if (label6.Visible = true)
+                {
+                    label6.Visible = false;
+                }
+            }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -41,6 +64,11 @@ namespace LoginRegistro
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
             validar_contrasena = textBox4.Text;
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

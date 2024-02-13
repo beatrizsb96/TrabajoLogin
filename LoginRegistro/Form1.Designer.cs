@@ -153,6 +153,7 @@
             // 
             // label6
             // 
+            label6.AccessibleName = "";
             label6.AutoSize = true;
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Sitka Display", 15F, FontStyle.Bold, GraphicsUnit.Point);
@@ -163,6 +164,7 @@
             label6.TabIndex = 10;
             label6.Text = "Las contraseñas no coinciden";
             label6.TextAlign = ContentAlignment.TopCenter;
+            label6.Click += label6_Click;
             // 
             // Form1
             // 
