@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LoginRegistro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9d94df40480ea1c4bbcc481f65b565fe2eb1508")]
+>>>>>>> 938161640e03798cebdd2125abb3cbd0b22aadbc
 [assembly: System.Reflection.AssemblyProductAttribute("LoginRegistro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LoginRegistro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
