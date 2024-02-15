@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\monke\\Desktop\\Login\\TrabajoLogin\\LoginRegistro\\LoginRegistro.csproj": {}
+    "C:\\Users\\monke\\Desktop\\Grado\\Interfaz\\Login\\TrabajoLogin\\LoginRegistro\\LoginRegistro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\monke\\Desktop\\Login\\TrabajoLogin\\LoginRegistro\\LoginRegistro.csproj": {
+    "C:\\Users\\monke\\Desktop\\Grado\\Interfaz\\Login\\TrabajoLogin\\LoginRegistro\\LoginRegistro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\monke\\Desktop\\Login\\TrabajoLogin\\LoginRegistro\\LoginRegistro.csproj",
+        "projectUniqueName": "C:\\Users\\monke\\Desktop\\Grado\\Interfaz\\Login\\TrabajoLogin\\LoginRegistro\\LoginRegistro.csproj",
         "projectName": "LoginRegistro",
-        "projectPath": "C:\\Users\\monke\\Desktop\\Login\\TrabajoLogin\\LoginRegistro\\LoginRegistro.csproj",
+        "projectPath": "C:\\Users\\monke\\Desktop\\Grado\\Interfaz\\Login\\TrabajoLogin\\LoginRegistro\\LoginRegistro.csproj",
         "packagesPath": "C:\\Users\\monke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\monke\\Desktop\\Login\\TrabajoLogin\\LoginRegistro\\obj\\",
+        "outputPath": "C:\\Users\\monke\\Desktop\\Grado\\Interfaz\\Login\\TrabajoLogin\\LoginRegistro\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\monke\\AppData\\Roaming\\NuGet\\NuGet.Config",
