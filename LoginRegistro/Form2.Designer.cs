@@ -35,6 +35,8 @@
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             label3 = new Label();
+            textBox3 = new TextBox();
+            label4 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -43,7 +45,7 @@
             label1.BackColor = Color.White;
             label1.Font = new Font("Sitka Display", 15F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.HotTrack;
-            label1.Location = new Point(117, 218);
+            label1.Location = new Point(117, 186);
             label1.Name = "label1";
             label1.Size = new Size(93, 36);
             label1.TabIndex = 0;
@@ -80,10 +82,11 @@
             // textBox1
             // 
             textBox1.Font = new Font("Sitka Display", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.Location = new Point(277, 215);
+            textBox1.Location = new Point(277, 183);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(185, 39);
             textBox1.TabIndex = 3;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // textBox2
             // 
@@ -107,12 +110,34 @@
             label3.Text = "LOGIN";
             label3.Click += label3_Click;
             // 
+            // textBox3
+            // 
+            textBox3.Font = new Font("Sitka Display", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox3.Location = new Point(277, 246);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(185, 39);
+            textBox3.TabIndex = 7;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.BackColor = Color.White;
+            label4.Font = new Font("Sitka Display", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.ForeColor = SystemColors.HotTrack;
+            label4.Location = new Point(117, 249);
+            label4.Name = "label4";
+            label4.Size = new Size(84, 36);
+            label4.TabIndex = 6;
+            label4.Text = "Correo";
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(563, 561);
+            Controls.Add(textBox3);
+            Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
@@ -133,5 +158,7 @@
         private TextBox textBox1;
         private TextBox textBox2;
         private Label label3;
+        private TextBox textBox3;
+        private Label label4;
     }
 }
