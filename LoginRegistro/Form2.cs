@@ -21,24 +21,20 @@ namespace LoginRegistro
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string correoIngresado = textBox1.Text;
+            string correoIngresado = textBox3.Text;
             string contrasenaIngresada = textBox2.Text;
-
-            //MessageBox.Show($"Correo ingresado: {correoIngresado}");
-            //MessageBox.Show($"Contraseña ingresada: {contrasenaIngresada}");
+            string nombreIngresado = textBox1.Text;
 
             foreach (Class1 usuario in usuarios)
             {
-                //MessageBox.Show($"Correo almacenado: {usuario.getCorreo()}");
-                //MessageBox.Show($"Contraseña almacenada: {usuario.getContrasena()}");
-                if (usuario.getCorreo() == correoIngresado && usuario.getContrasena() == contrasenaIngresada)
+                if (usuario.getNombre() == nombreIngresado && usuario.getCorreo() == correoIngresado && usuario.getContrasena() == contrasenaIngresada)
                 {
                     MessageBox.Show("Inicio de sesión exitoso");
                     return;
                 }
             }
 
-            MessageBox.Show("Correo o contraseña incorrectos");
+            MessageBox.Show("Campos incorrectos, inténtalo de nuevo");
         }
 
         private void label2_Click(object sender, EventArgs e)
